@@ -18,4 +18,7 @@ responseCombine === null || responseCombine === void 0 ? void 0 : responseCombin
 var message = "";
 var messageUpperCase = message;
 messageUpperCase.toUpperCase();
+console.log(response);
+var myFloat = 3.8;
+console.log(myFloat);
 //const canvas = <HTMLCanvasElement>document.getElementById("canvas");
