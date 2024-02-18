@@ -1,3 +1,5 @@
+
+//tipos de datos
 let userName: string = "Juan";
 let age: number = 32;
 let enables: boolean = true;
@@ -16,3 +18,16 @@ responseUnknowm = true;
 
 let responseNull = null;
 let responseUndedined = undefined;
+
+//combinación de datos
+type ResponseTypeService = string | undefined;
+
+let responseCombine: ResponseTypeService;
+responseCombine?.toString();
+
+//Type assertion(casting)
+let message: any = "";
+let messageUpperCase = <string>message;
+messageUpperCase.toUpperCase();
+
+//const canvas = <HTMLCanvasElement>document.getElementById("canvas");
